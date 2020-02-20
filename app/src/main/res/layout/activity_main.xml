@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Country"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:id="@+id/california"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="California"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+             />
+
+        <RadioButton
+            android:id="@+id/florida"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Florida"
+            android:layout_marginTop="20dp"
+            android:checked="false" />
+        <RadioButton
+            android:id="@+id/newyork"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="New York"
+            android:layout_marginTop="20dp"
+            android:checked="false"
+            />
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="R and D Spend"
+            />
+        <EditText
+            android:id="@+id/randd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Administration"
+            />
+        <EditText
+            android:id="@+id/admin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Marketing"
+            />
+        <EditText
+            android:id="@+id/market"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/predict"
+        />
+</LinearLayout>
